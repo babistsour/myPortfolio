@@ -1,0 +1,44 @@
+// .fewWords {
+// display: flex;
+// flex-direction: column;
+// justify-content: flex-end;
+// align-items: flex-end;
+// width: 80%;
+// margin-top: 1.5rem;
+// margin-bottom: 10rem;
+// margin-left: auto;
+// margin-right: auto;
+// background-image: url("../images/kisspng-electronic-circuit-electronics-printed-circuit-boa-electrical-circuit-5b406adbe1eaa0.6105065315309483159254.png");
+// position: relative;
+
+// height: 70vh;
+// width: 80%;
+// border: 1px solid red;
+
+.wrapper {
+  position: relative;
+  top: 0%;
+  left: 65%;
+
+  width: 30%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 2em;
+
+  @media (max-width: 968px) {
+    width: 70%;
+    left: 25%;
+  }
+}
+
+p {
+  line-height: 2em;
+  color: #d1d1d1;
+  align-self: flex-end;
+  font-family: "Poiret One", cursive;
+  color: #d1d1d1;
+  font-size: 1.5rem;
+}

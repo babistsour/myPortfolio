@@ -1,0 +1,102 @@
+.projectItem {
+  font-family: "Poiret One", cursive;
+
+  margin-top: 6rem;
+  margin: 2rem auto;
+  width: 80%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .techstack {
+    padding: 1rem;
+  }
+
+  .project__description {
+    line-height: 1.6rem;
+    overflow: hidden;
+    width: 80%;
+    padding: 1rem 0;
+  }
+
+  h1 {
+    font-size: 5.2rem;
+    color: #d1d1d1;
+
+    @media (max-width: 768px) {
+      font-size: 3.3rem;
+      width: 100%;
+      word-wrap: break-word;
+    }
+  }
+
+  .project__details {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+
+    gap: 2rem;
+    font-size: 1.5rem;
+
+    h5 {
+      color: #d1d1d1;
+    }
+
+    p {
+      line-height: 1;
+      overflow: hidden;
+    }
+  }
+
+  a {
+    display: inline-block;
+    padding: 0.5em 0.5rem;
+    border-radius: 5px;
+    border: 2px solid #ee5134;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    color: #d1d1d1;
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.5s ease;
+
+    &:hover {
+      color: #23252a;
+      font-weight: bold;
+      font-size: 1rem;
+      background-color: #ee5134;
+    }
+  }
+
+  .line {
+    width: 80%;
+    height: 3px;
+    background-color: #d1d1d1;
+    margin-top: 1.5rem;
+    border-radius: 2px;
+  }
+}
+
+.projectItems__container {
+  position: relative;
+
+  h6 {
+    color: #d1d1d1;
+    font-family: "Poiret One", cursive;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+
+    @media (max-width: 768px) {
+      position: absolute;
+      bottom: 10%;
+      left: 5%;
+    }
+  }
+}

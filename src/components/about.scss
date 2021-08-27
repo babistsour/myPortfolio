@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+  width: 70%;
+  // height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem auto;
+  z-index: 1;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  //   border: 1px solid yellow;
+
+  .intro {
+    font-size: 5.2rem;
+
+    font-family: "Poiret One", cursive;
+    color: #d1d1d1;
+    overflow: -moz-hidden-unscrollable;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      padding: 0 1rem;
+      overflow: hidden;
+    }
+
+    .red {
+      color: #ee5134;
+    }
+  }
+}

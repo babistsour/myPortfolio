@@ -1,0 +1,24 @@
+.navbar {
+  font-family: "Poiret One", cursive;
+  position: relative;
+  z-index: 10;
+  // border: 1px solid red;
+
+  .navbar__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #d1d1d1;
+    // border: 1px solid forestgreen;
+    // max-width: 1440px;
+    width: 100%;
+    height: 10vh;
+    margin: 0 auto;
+  }
+
+  .logo h2 {
+    font-size: 2rem;
+    margin-left: 3rem;
+  }
+}

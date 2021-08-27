@@ -1,0 +1,19 @@
+.gradient {
+  position: fixed;
+  display: block;
+  opacity: 1;
+  left: 0;
+  top: 100vh;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 8.1em;
+  margin-top: -6em;
+  background: rgb(35, 37, 42);
+  background: linear-gradient(
+    0deg,
+    rgba(35, 37, 42, 0.918) 0%,
+    rgba(35, 37, 42, 0.658) 35%,
+    rgba(35, 37, 42, 0.048) 100%
+  );
+}

@@ -26,7 +26,7 @@ export const projects = [
     title: "My Portfolio",
     subtitle: "html, sass, React",
     description: "My personal portfolio website",
-    link: "https://babistsour.github.io/My_portfolio/",
+    link: "https://www.babistsourlis.com",
     id: "04",
   },
 

@@ -15,7 +15,9 @@ const Contact = () => {
           <h5>Or find me on social: </h5>
           <a href="https://www.facebook.com/giotas.giotoglou">Facebook</a>
           <br />
-          <a href="https://twitter.com/home">Twitter</a>
+          <a href="https://www.linkedin.com/in/babis-tsourlis-7b736a189/">
+            LinkedIn
+          </a>
           <br />
           <a href="https://github.com/babistsour">Github</a>
         </div>
